@@ -729,6 +729,12 @@ const Home = () => {
           {color === 'dark' ? 'light bg' : 'dark bg'}&nbsp; {KeyTip('?', color)}{' '}
           help
         </div>
+
+        <div>
+          <a href="https://github.com/constraint-systems/slide" target="_blank">
+            View source↗
+          </a>
+        </div>
       </div>
       {help ? null : (
         <div
